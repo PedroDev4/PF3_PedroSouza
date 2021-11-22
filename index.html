@@ -1,0 +1,27 @@
+<html>
+<header>
+    <title>PoupeFuturo</title>
+    <meta lang="pt-br">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</header>
+
+<body>
+    <label> Created by: Pedro Martins - 3C1 </label>
+
+    <div id="maindiv">
+
+        <h2 id="title">Preencha os campos abaixo para calcular</h2>
+        <input id="nome" type="text" class="inputs" placeholder="Nome (Albert Eisten)" /><br />
+        <input id="valor" type="text" class="inputs" placeholder="350.00" /><br />
+        <input id="tempo" type="text" class="inputs" placeholder="meses - Ex: 12" /><br />
+        <input id="taxa" type="text" class="inputs" placeholder="Ex: 2" /><label>%</label><br />
+        <input type="button" class="btn" value="CALCULAR" onclick="jurosComposto()" /><br />
+        <input type="button" class="btn" value="Limpar" onclick="limparInputs()" /><br />
+        <div id="message"></div>
+    </div>
+
+</body>
+
+</html>
